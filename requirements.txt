@@ -1,0 +1,4 @@
+gradio 
+fpdf 
+python-docx
+huggingface-hub==0.24.6 
