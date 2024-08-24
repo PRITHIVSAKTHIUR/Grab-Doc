@@ -45,6 +45,22 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
     If you want to clone without large files - just their pointers
     
     GIT_LFS_SKIP_SMUDGE=1 git clone git@hf.co:spaces/prithivMLmods/GRAB-DOC
+    
+## Inference-Client
+
+```python
+client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.3")
+
+def format_prompt(message, history, system_prompt=None):
+    prompt = "<s>"
+    for user_prompt, bot_response in history:
+        prompt += f"[INST] {user_prompt} [/INST]"
+        prompt += f" {bot_response}</s> "
+    if system_prompt:
+        prompt += f"[SYS] {system_prompt} [/SYS]"
+    prompt += f"[INST] {message} [/INST]"
+    return prompt
+```
 
 ## DEMO GIF
 
