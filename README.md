@@ -45,6 +45,8 @@ If you want to clone without large files - just their pointers
 
 GIT_LFS_SKIP_SMUDGE=1 git clone git@hf.co:spaces/prithivMLmods/GRAB-DOC
 
+## DEMO GIF
+
 ![alt text](assets/GD.gif)
 
 ## Dependencies
