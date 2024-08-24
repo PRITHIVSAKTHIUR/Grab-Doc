@@ -13,6 +13,8 @@ short_description: pdf, docx, txt
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
+![alt text](assets/AAD.png)
+
 ## HTTPS
 
 Make sure you have git-lfs installed (https://git-lfs.com)
