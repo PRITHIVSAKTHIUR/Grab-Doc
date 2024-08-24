@@ -13,6 +13,13 @@ short_description: pdf, docx, txt
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
+## Model Details
+
+| Model Identifier              | Description                                     | Version |
+|-------------------------------|-------------------------------------------------|---------|
+| `mistralai/Mistral-7B-Instruct-v0.3` | A large language model fine-tuned for instruction-based tasks. | 0.3     |
+
+
 ![alt text](assets/AAD.png)
 
 ## HTTPS
